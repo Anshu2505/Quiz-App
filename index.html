@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+      
+    <div class="quiz-container" id="quizhost">
+        <div class="info">
+            <div class="round">Round: 1</div>
+            <div class="timer"><h3 id="timer">10</h3></div>
+        </div>
+        <div class="heading">
+            <h1 id="question">Question Text:</h1>
+        </div>
+        <div class="options">
+            <div class="option">
+                <ul>
+                    <li><input type="radio" name="answer" id="a" class="ans"><label for="a" id="a_text"><h4>Option 1</h4></label></li>
+                    <li><input type="radio" name="answer" id="b" class="ans"><label for="b" id="b_text"><h4>Option 2</h4></label></li>
+                    <li><input type="radio" name="answer" id="c" class="ans"><label for="c" id="c_text"><h4>Option 3</h4></label></li>
+                    <li><input type="radio" name="answer" id="d" class="ans"><label for="d" id="d_text"><h4>Option 4</h4></label></li>
+                </ul>
+            </div>
+            <div class="image">
+                <img src="" alt="" id="image" width="220" height="250">
+            </div>
+            
+        </div>
+        <button type="submit" id="sub">Submit your answer</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
